@@ -1,0 +1,20 @@
+|== Compiling stack...
+
+| LOG Starting thread...
+
+|= Make transitions...
+|
+| *aaaabbcccc* | * | S  -> q1 |   *
+|  aaaabbcccc* | a | q1 -> q1 | + *a
+|   aaabbcccc* | a | q1 -> q1 | + *aa
+|    aabbcccc* | a | q1 -> q1 | + *aaa
+|     abbcccc* | a | q1 -> q1 | + *aaaa
+|      bbcccc* | b | q1 -> q2 | - *aaa
+|       bcccc* | b | q2 -> q2 | = *aaa
+|        cccc* | c | q2 -> q3 | = *aaa
+|         ccc* | c | q3 -> q3 | - *aa
+|          cc* | c | q3 -> q3 | - *a
+|           c* | c | q3 -> q3 | - *
+
+| SUCCESS! Word recoginized!
+
