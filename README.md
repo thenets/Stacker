@@ -23,7 +23,7 @@ Para compilar o projeto, basta navegar até a pasta do stacker e executar o comp
 ### Estrutura
 q1 (entrada, topo_da_pilha, alteracao, estado de destino)
 
-	   Se a entrada 0; topo de pilha for 1; adiciona 2 na pilha; vai para o estado q2
+	Se a entrada 0; topo de pilha for 1; adiciona 2 na pilha; vai para o estado q2
         q1 (0, 1, 2, q2);
         
     Se a entrada 1; topo de pilha for 2; remove item da pilha; se mantém no estado q2
