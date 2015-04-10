@@ -34,7 +34,7 @@ int init (vector<State> &states, string &stack, string &word, bool &finish, stri
     Thread thread (states, word, stack, finish, errors);
     
     // Run all transitions until get finished
-    cout << "|= Make transitions...\n|" << endl;
+    //cout << "|= Make transitions...\n|" << endl;
     int i=0;
     while (finish == false) {
         //states.at(0).debug();
@@ -42,7 +42,7 @@ int init (vector<State> &states, string &stack, string &word, bool &finish, stri
         
         
         // Check infinity loop
-        if(i==200) {
+        if(i==1000) {
             cout << "| ERROR Infinity loop!" << endl;
             finish = true;
         }

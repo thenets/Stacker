@@ -87,7 +87,7 @@ $app.controller('editorController', function($scope, $http){
           error(function(data, status, headers, config) {
             // called asynchronously if an error occurs
             // or server returns response with an error status.
-            document.getElementById("output").innerHTML = "ERROR! Server not responde!";
+            document.getElementById("output").innerHTML = "ERROR! Server does not respond!";
           });
     };
     

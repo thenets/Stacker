@@ -39,6 +39,7 @@ echo exec("./stacker > out.txt 2>&1");
           color: rgb(166, 226, 46);
           width:100%;
           overflow-y: auto;
+          font-family: "Consolas";
       }
     </style>
     
@@ -133,7 +134,7 @@ q3
 <h3>And that's it!</h3>
 
 <p>Thank you for use Stacker.
-If you want, contact me at http://TheNets.org/ .</p></div>
+If you want, contact me at http://TheNets.org/ .</p></div><br><br>
       </div>
       
       

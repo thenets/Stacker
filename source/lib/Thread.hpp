@@ -32,7 +32,7 @@ class Thread {
         Thread (vector<State> &states, string &word, string &stack, bool &finish, string &errors) {
             this->next = 1;
             this->state_id = 0;
-            cout << "| LOG Starting thread..." << endl << endl;
+            //cout << "| LOG Starting thread..." << endl << endl;
         }
         
         
@@ -97,7 +97,7 @@ class Thread {
                         if ( t.at(i).go_to.find(string("end")) != string::npos ) {
                             finish = true;
                             success = true;
-                            cout << "\n| SUCCESS! Word recoginized!" << endl;
+                            cout << "\n| SUCCESS! Word recognized!" << endl;
                         }
                         
                         // Set next state
@@ -117,7 +117,7 @@ class Thread {
                 
                 // ============== Output ==============
                 // Console log if all ok in transition
-                if (hasTransition && wordTmp.size() != next)
+                if (!success && hasTransition && wordTmp.size() != next)
                     cout << "| " << wordTmp << " | " << letter << " | " << state.name+" -> "+nextStateName << " | "+stackOperation+" "+stack << endl;
                 // Error message if hasn't a transition
                 if (!hasTransition) {
