@@ -1,12 +1,8 @@
-echo 
-echo 
-echo 
-echo 
-echo 
 echo "# --------------------------------------------------- #"
-echo
 
 g++ -O2 -o ./bin/stacker ./source/main.cpp
-./bin/stacker
+cp ./bin/stacker ./web_gui
+cd web_gui
+../bin/stacker
 
-#echo "# --------------------------------------------------- #"
+echo "# --------------------------------------------------- #"

@@ -45,6 +45,7 @@ q1 (entrada, topo_da_pilha, alteracao, estado de destino)
         q3 (3, 2, =, end);
 
 
+----------	
 ### Símbolos
 q1 (entrada, topo_da_pilha, alteracao, estado de destino)
 
@@ -53,6 +54,7 @@ q1 (entrada, topo_da_pilha, alteracao, estado de destino)
 	=  mantém
 
 
+----------	
 ### Exemplo
 Automato que reconhece: a^n b^m c^n
 Ex.: aaaabbcccc
