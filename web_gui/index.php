@@ -147,5 +147,8 @@ If you want, contact me at http://TheNets.org/ .</p></div><br><br>
       
       <!-- Import all libs and modules -->
       <script data-main="//cdn.thenets.org/jdesign/js/loader_remote" src="//cdn.thenets.org/jdesign/js/codeux/require.js"></script>
+      
+      <!-- Edit code together -->
+      <script src="https://togetherjs.com/togetherjs-min.js"></script>
   </body>
 </html>

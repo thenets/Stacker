@@ -8,6 +8,9 @@
             </div>
             <div class="col-lg-6">
                 <div class="input-group">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="TogetherJS(this); return false;">Edit together</button>
+                  </span>
                   <input type="text" class="form-control" ng-model="word" placeholder="Word...">
                   <span class="input-group-btn">
                     <button class="btn btn-default" type="button" ng-click="compile()">Compile</button>

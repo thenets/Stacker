@@ -18,7 +18,7 @@ fclose($fp);
 // Compile
 exec("./stacker >> out.txt 2>&1");
 
-sleep(1);
+//sleep(1);
 
 // Output
 header('Content-Type: application/json');
